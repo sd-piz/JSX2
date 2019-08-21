@@ -2,6 +2,7 @@ export default class BMI{
   bmicalculate(w,h){
     return w/(h**2);
   }
+  
   scal(bm,re){
     if(re=="western"){
       if(bm<=19.5)
